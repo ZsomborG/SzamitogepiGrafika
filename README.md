@@ -1,4 +1,3 @@
-
 Féléves beadandó leírása. Alapvetően C nyelven irt, MVC struktúrára alapozva, OpenGL és SDL2 alapokkal kiindulva számítógépi grafika kurzusra.
 
 ---
@@ -44,14 +43,12 @@ A játékmenet körforgása:
 - **Bonyolultabb animációk**: Különböző támadási animációk hozzáadása a puszta villogás helyett. (Egyszerű egységképességek megvalósítása vizuális effektekkel.)
 - **Részecskerendszerek**: Részecskeeffekt hozzáadása a támadásokhoz, egységhalálhoz vagy egyszerű képességekhez.
 - **AI**: AI harci célzásának a javítása (pl. célozzanak bizonyos egységek a legalacsonyabb HP-ra vagy a legtávolabbi egységre).
-- **Köd**: Minden kör után megjelenik pár másodpercing a tábla négy oldalán.
 - **Átlátszóság**: Használható vizuális effektekhez vagy az egységek támadási sugarának jelzéséhez.
 - **Árnyék**: A táblán lévő egységeknek egyszerű árnyékok.
 - **Ütközésvizsgálat**: Implicit módon már most is szükséges a tábla lapkáira vagy egységeire történő egérkattintáshoz. Az egységek körüli határoló dobozok hasznosak (bounding boxes).
 - **Stencil puffer**: Használható a kiválasztott egységek kiemelésére vagy érvényes elhelyezési rácsokhoz.
 - **Felhasználói felület**: Minimálisan eleve integrálva van az ImGui-ba a bolt, játékos statisztikák, stb.
 - **Objektumok kijelölése egérrel**: Lényeges az egységek elhelyezéséhez.
-- **Térkép kezelése**: A „térkép” a játéktábla rácshálója. Nem heightmap alapú.
 - **Procedurális geometria, textúrák**: Procedurálisan generált játéktábla mintáit.
 
 ### Egyéb fejlesztések a játék funkcionalitásának kibővítéséhez
